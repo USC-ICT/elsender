@@ -7,5 +7,10 @@ bin
 elsender/.vs
 elsender/bin
 elsender/obj
+elsender/Apache.NMS.ActiveMQ.dll
+elsender/Apache.NMS.dll
+elsender/elsender.exe
+elsender/elsenderd.exe
+elsender/vhmsg-net.dll
 vhmsg-net/bin
 vhmsg-net/obj
