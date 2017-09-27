@@ -128,11 +128,11 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\activemq\activemq-dotnet\Apache.NMS.ActiveMQ\vs2010-activemq.csproj">
+    <ProjectReference Include="..\activemq-dotnet\Apache.NMS.ActiveMQ\vs2010-activemq.csproj">
       <Project>{08321F42-4B3D-4815-B592-95962BAC3B9F}</Project>
       <Name>vs2010-activemq</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\activemq\activemq-dotnet\Apache.NMS\vs2010-nms.csproj">
+    <ProjectReference Include="..\activemq-dotnet\Apache.NMS\vs2010-nms.csproj">
       <Project>{300C1716-0674-4D01-8F5D-151E59A504FE}</Project>
       <Name>vs2010-nms</Name>
     </ProjectReference>

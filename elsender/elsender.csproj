@@ -111,7 +111,7 @@
     <Reference Include="System.Xml">
       <Name>System.XML</Name>
     </Reference>
-    <ProjectReference Include="..\..\lib\vhmsg\vhmsg-net\vhmsg-net.csproj">
+    <ProjectReference Include="..\vhmsg-net\vhmsg-net.csproj">
       <Name>vhmsg-net</Name>
       <Project>{DE4240A9-DBBA-410F-888F-462384A5B280}</Project>
       <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
@@ -168,12 +168,12 @@ copy /Y "$(TargetDir)\vhmsg-net.dll" ..\..
 copy /Y "$(TargetDir)\Apache.NMS.dll" ..\..
 copy /Y "$(TargetDir)\Apache.NMS.ActiveMQ.dll" ..\..
 
-if not exist ..\..\..\..\bin\elsender mkdir ..\..\..\..\bin\elsender
-if $(ConfigurationName) == Debug copy /Y "$(TargetPath)" "..\..\..\..\bin\elsender\$(TargetName)d$(TargetExt)"
-if $(ConfigurationName) == Release copy /Y "$(TargetPath)" ..\..\..\..\bin\elsender
-copy /Y "$(TargetDir)\vhmsg-net.dll" ..\..\..\..\bin\elsender
-copy /Y "$(TargetDir)\Apache.NMS.dll" ..\..\..\..\bin\elsender
-copy /Y "$(TargetDir)\Apache.NMS.ActiveMQ.dll" ..\..\..\..\bin\elsender
+if not exist ..\..\..\bin\elsender mkdir ..\..\..\bin\elsender
+if $(ConfigurationName) == Debug copy /Y "$(TargetPath)" "..\..\..\bin\elsender\$(TargetName)d$(TargetExt)"
+if $(ConfigurationName) == Release copy /Y "$(TargetPath)" ..\..\..\bin\elsender
+copy /Y "$(TargetDir)\vhmsg-net.dll" ..\..\..\bin\elsender
+copy /Y "$(TargetDir)\Apache.NMS.dll" ..\..\..\bin\elsender
+copy /Y "$(TargetDir)\Apache.NMS.ActiveMQ.dll" ..\..\..\bin\elsender
 </PostBuildEvent>
   </PropertyGroup>
 </Project>
