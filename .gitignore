@@ -1,0 +1,11 @@
+
+activemq-dotnet/Apache.NMS/build
+activemq-dotnet/Apache.NMS/obj
+activemq-dotnet/Apache.NMS.ActiveMQ/build
+activemq-dotnet/Apache.NMS.ActiveMQ/obj
+bin
+elsender/.vs
+elsender/bin
+elsender/obj
+vhmsg-net/bin
+vhmsg-net/obj
