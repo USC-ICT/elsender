@@ -47,7 +47,7 @@ namespace Apache.NMS.ActiveMQ.Transport.Tcp
 		private ExceptionHandler exceptionHandler;
 		private InterruptedHandler interruptedHandler;
 		private ResumedHandler resumedHandler;
-		private TimeSpan MAX_THREAD_WAIT = TimeSpan.FromMilliseconds(30000);
+		private TimeSpan MAX_THREAD_WAIT = TimeSpan.FromMilliseconds(5000);
 
         /// <summary>
         /// Size in bytes of the receive buffer.
